@@ -228,17 +228,21 @@ p {
 }
 
 #templatemo_content_left .product_box {
-	float: left;
-	width: 190px;
-	margin-right: 15px;
-	padding: 10px;
-	background: #5d0b31;
+    float: left;
+    width: 190px;
+    margin-right: 15px;
+    padding: 10px;
+    background: #5d0b31;
+    border-radius: 10px;
+    border: 1px solid #be457c;
 }
 
 #templatemo_content_left .product_box img{
 	margin-bottom: 5px;
 	border-radius: 8px;
 	border: 1px solid #be457c;
+	padding: 5px;
+	background: #ffffff;
 }
 
 #templatemo_content #templatemo_content_right {
