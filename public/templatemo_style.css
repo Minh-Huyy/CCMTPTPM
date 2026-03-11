@@ -229,8 +229,10 @@ p {
 
 #templatemo_content_left .product_box {
 	float: left;
-	width: 200px;
-	margin-right: 10px;
+	width: 190px;
+	margin-right: 15px;
+	padding: 10px;
+	background: #5d0b31;
 }
 
 #templatemo_content_left .product_box img{
