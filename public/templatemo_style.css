@@ -3,13 +3,27 @@ CSS Credit: http://www.templatemo.com/
 */
 
 body {
-	margin: 0;
-	padding: 0;
-	line-height: 1.5em;
-	font-family: Verdana, Arial, san-serif;
-	font-size: 11px;
-	color: #fff;
-	background: #fff;
+    background: #2c0316; /* Đổi từ trắng sang màu mận chín đậm */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Đổi font hiện đại hơn */
+    color: #fce4ec; /* Màu chữ sáng nhẹ */
+}
+
+/* 2. Thêm hiệu ứng cho các hộp sản phẩm (Tìm đến dòng 190) */
+#templatemo_content_left .product_box {
+    float: left;
+    width: 190px;             /* Chỉnh lại độ rộng */
+    margin-right: 15px;
+    padding: 10px;            /* Thêm khoảng cách trong */
+    background: #5d0b31;      /* Thêm màu nền cho từng box */
+    border-radius: 10px;      /* Bo góc mềm mại */
+    border: 1px solid #be457c; /* Thêm viền mỏng */
+    transition: transform 0.3s ease; /* Thêm hiệu ứng chuyển động */
+}
+
+/* 3. Hiệu ứng khi di chuột vào sản phẩm (Viết thêm dòng mới) */
+#templatemo_content_left .product_box:hover {
+    transform: scale(1.05);   /* Phóng to nhẹ khi di chuột */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5); /* Thêm bóng đổ */
 }
 
 a:link, a:visited { color: #F1A5D5; text-decoration: underline; } 
