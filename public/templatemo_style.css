@@ -237,6 +237,8 @@ p {
 
 #templatemo_content_left .product_box img{
 	margin-bottom: 5px;
+	border-radius: 8px;
+	border: 1px solid #be457c;
 }
 
 #templatemo_content #templatemo_content_right {
